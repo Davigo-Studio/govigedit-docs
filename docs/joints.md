@@ -1,4 +1,6 @@
-### Different Joint Types
+# Joints
+
+## Different Joint Types
 
 Davigo uses many types of joints to keep objects in place. For instance, the Blockwall prefab uses an Overlapping Joint, whereas the Tree prefab uses the Detachable Netwprk Spring Joint. This may seem confusing at first, but be assured; with enough practice, you'll be a rigidbody-making pro!
 
@@ -9,7 +11,7 @@ Spring Joints will cause your objects to stay in place and wiggle when force is 
 
 Now, that's great and all, but what the heck do any of these variables mean?! Well, in order from top to bottom of each component:
 
-### Detachable Network Spring Joint
+## Detachable Network Spring Joint
 
 ![DefaultTree](_media/joints/treepeefab.png)
 
@@ -24,7 +26,7 @@ Now, that's great and all, but what the heck do any of these variables mean?! We
  - Translation / Angular Sping: These settings affect how much force a rigidbody will use to go back to its original position or rotation, respectively. Make sure not to set the value too high, however, as your rigidbody will go shooting off into oblivion, rendering it useless.
  - Translation / Angular Dampen: This is the modifier applied to your rigidbody's tramslation / angular force. A high value will perserve less force, causing your rigidbody to wiggle less, whereas a lower value will let your object spring around to its heart's desire. It's recommended to keep these values between 0.1 - 0.9.
 
-### Breakable Joint
+## Breakable Joint
 
 ![BreakableJoint](_media/joints/breakablejoint.png)
 
