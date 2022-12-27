@@ -1,6 +1,6 @@
 # Joints
 
-Davigo uses many types of joints to keep pullable objects in place. For instance, the `Blockwall` prefab uses an Overlapping Joint, whereas the Tree prefab uses the `Detachable Network Spring Joint`. Both of these joints will keep your rigidbody in place, with varying methods. This may seem confusing at first, but be assured; with enough practice, you'll be a joint-making pro!
+Davigo uses many types of joints to keep pullable objects in place. For instance, the Blockwall prefab uses an `Overlapping Joint`, whereas the Tree prefab uses the `Detachable Network Spring Joint`. Both of these joints will keep your rigidbody in place, with varying methods. This may seem confusing at first, but be assured; with enough practice, you'll be a joint-making pro!
 
 
 ## Spring Joints
