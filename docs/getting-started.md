@@ -36,6 +36,7 @@ Create a plane, right click on it's Transform in the Inspector, and click reset.
 Create a Giant spawn position and Warrior spawn position. These can be found in `Assets/Davigo/Common/Prefabs`.
 
 We'll also need a killzone so the warrior respawns when they fall off. This can be found in `Assets/Govidad/Govigedit/Package/Prefabs`.
+!> Do not make the killzone too small, as this can lead to problems later down the line.
 
 Finally, we'll need a GameObject with the `MapSettingsComponent` on it. You can find an example prefab in `Assets/Govidad/Govigedit/Package/Prefabs`.
 In said `MapSettingsComponent`, you can find fields for the map's name, description, the author, as well as a preview image.
@@ -46,7 +47,7 @@ In said `MapSettingsComponent`, you can find fields for the map's name, descript
 
 Once you've done all of that, save your masterpiece and export it via `Govigedit/Export Map` (This can be found in the top bar).
 
-Once the map has finished exporting, fire up the prototypes, and create an Online Lobby. Your map should be within the normal map dropdown.
+Once the map has finished exporting, fire up the alpha or prototypes, and create an Online or a Local Lobby. Your map should be within the map selection under 'My Maps'.
 You can then load it up and have a look!
 
 This map obviously isn't going to win any awards, but this basic setup is mostly required for each map you create.
