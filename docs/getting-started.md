@@ -19,6 +19,10 @@ Now create a new, empty 3D project to build your map in and open it.
 Once that project has loaded, download the [Govigedit package](https://davigo.page.link/govigedit-latest)
 (if you haven't already), and import it either by double-clicking on it in File Explorer, importing it via `Assets -> Import Package -> Custom Package`, or dragging the package onto the Hierarchy.
 
+Some aspects of Govigedit won't work until ProBuilder is installed in your Unity project. To install ProBuilder, navigate to `Window -> Package Manager`. Once inside the Package Manager, Switch it from `In Project` to `Unity Registry`, and search for ProBuilder. For certain features to work consistantly, you should install version `5.0.4` of ProBuilder, as opposed to the newest version.
+
+![packagefinder](_media/gettingstarted/windowmanager.png) ![packagemanager](_media/gettingstarted/packagemanager.png)
+
 ## Creating a very basic map
 
 We'll want to create a new scene in the project panel (a scene is essentially a level), name it something fun (BirdSanctuary for example) and open it.
