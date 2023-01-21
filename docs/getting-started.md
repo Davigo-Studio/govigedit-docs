@@ -44,11 +44,9 @@ In said `MapSettingsComponent`, you can find fields for the map's name, descript
 
 ![Finished Scene](_media/gettingstarted/fintutorialplane.png)
 
-!> The preview image and description is used when uploading your map to the map distribution stuff; not setting it means your map will not have an image or description in the map browser, and as such is unlikely to be approved. 
-
 Once you've done all of that, save your masterpiece and export it via `Govigedit/Export Map` (This can be found in the top bar).
 
-Once the map has finished exporting, fire up the alpha or prototypes, and create an Online or a Local Lobby. Your map should be within the map selection under 'My Maps'.
+Once the map has finished exporting, fire up the alpha or prototypes, and create a Lobby. Your map should be within the map selection under 'My Maps'.
 You can then load it up and have a look!
 
 This map obviously isn't going to win any awards, but this basic setup is mostly required for each map you create.
